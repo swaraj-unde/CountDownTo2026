@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    width: 100vw;
+    background-image: radial-gradient(circle farthest-corner at 50.3% 55.8%, rgba(239,0,0,1) 0.8%, rgba(93,17,17,1) 100.2%);
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.container {
+    margin-top: 8rem;
+    text-align: center;
+    padding: 2rem;
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+#heading {
+    color: bisque;
+    font-size: 4rem;
+    line-height: 1.1;
+}
+
+.upperbox {
+    margin: 1rem 0;
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.box {
+    background-image: radial-gradient(circle farthest-corner at 50.3% 47.3%, rgba(113,42,92,1) 0.1%, rgba(40,25,46,1) 90%);
+    padding: 1.5rem 2rem;
+    border-radius: 2rem;
+    width: 125px;
+    min-width: 100px;
+    color: bisque;
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+#dwn {
+    font-size: 1rem;
+}
+
+.progress {
+    height: 1rem;
+    width: 90%;
+    max-width: 600px;
+    background-image: radial-gradient(circle farthest-corner at 50.3% 47.3%, rgba(113,42,92,1) 0.1%, rgba(40,25,46,1) 90%);
+    overflow: hidden;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+#bar {
+    height: 100%;
+    width: 0%;
+    background-color: bisque;
+    border-radius: 1rem;
+    transition: width 1s linear;
+}
+
+
+@media (max-width: 768px) {
+    #heading {
+        font-size: 3rem;
+    }
+
+    .box {
+        width: 100px;
+        font-size: 2rem;
+        padding: 1rem 1.5rem;
+    }
+
+    .progress {
+        width: 95%;
+    }
+}
+
+@media (max-width: 480px) {
+    #heading {
+        font-size: 2.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .upperbox {
+        gap: 1.5rem;
+    }
+
+    .box {
+        width: 80px;
+        font-size: 1.5rem;
+        padding: 1rem;
+        border-radius: 1.2rem;
+    }
+
+    #dwn {
+        font-size: 0.85rem;
+    }
+
+    .progress {
+        height: 0.8rem;
+        max-width: 100%;
+        width: 100%;
+    }
+}
