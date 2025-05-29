@@ -1,6 +1,6 @@
 # ⏳ Countdown to 2026
 
-This is a **countdown timer** that tracks the time remaining until **January 1, 2026** — and it's my **first project using JavaScript**! 🚀  
+This is a **countdown timer** that tracks the time remaining until **January 1, 2026** — and it's my **first project using JavaScript**! 🚀
 I built it to practice DOM manipulation, time calculations, and responsive web design.
 
 ---
@@ -16,15 +16,15 @@ I built it to practice DOM manipulation, time calculations, and responsive web d
 
 ### 🛠 Tech Stack
 
-- **HTML** — Page structure  
-- **CSS** — Styling and responsiveness (media queries, gradients, flexbox)  
+- **HTML** — Page structure
+- **CSS** — Styling and responsiveness (media queries, gradients, flexbox)
 - **JavaScript** — Logic for time calculations, live updates, and DOM manipulation
 
 ---
 
-### 🔗 Live Demo
+### 🔗 Link
 
-
+    https://swaraj-unde.github.io/CountDownTo2026/
 
 ---
 
