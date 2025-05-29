@@ -1,6 +1,6 @@
 
 ---
-## Countdown to 2026 — My First JavaScript Project
+## Countdown to 2026
 
 This is a **countdown timer** that tracks the time remaining until **January 1, 2026** — and it's my first project using **JavaScript**! 🚀
 I built it to practice DOM manipulation, time calculations, and responsive web design.
