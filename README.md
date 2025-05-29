@@ -24,7 +24,8 @@ I built it to practice DOM manipulation, time calculations, and responsive web d
 
 ### 🔗 Link
 
-    (https://swaraj-unde.github.io/CountDownTo2026/)
+[Live Demo](https://swaraj-unde.github.io/CountDownTo2026/)
+
 
 ---
 
